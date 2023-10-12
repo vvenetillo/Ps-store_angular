@@ -1,0 +1,17 @@
+header{
+    display: flex;
+    height: 100px;
+    margin: 100px;
+    padding: 20px;
+}
+
+.card-container{
+    justify-content: space-around;
+    
+}
+
+.card-1,
+.card-2,
+.card-3{
+    padding: 10px;
+}
