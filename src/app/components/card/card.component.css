@@ -1,17 +1,21 @@
-header{
-    display: flex;
-    height: 100px;
-    margin: 100px;
-    padding: 20px;
-}
-
 .card-container{
-    justify-content: space-around;
-    
+    position: relative;
+    border: 3px solid #3E4357;
+    border-radius: 10px;
+    width: 350px;
+    height: 500px;
+
+    display: flex;
+    overflow: hidden;
+    margin-top: 10px;
 }
 
-.card-1,
-.card-2,
-.card-3{
-    padding: 10px;
+.card-img{
+    min-width: 100%;
+    min-height: 100%;
+    transition: transform .5s
+}
+
+.card-img:hover{
+    transform: scale(1.1)
 }
