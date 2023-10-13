@@ -1,3 +1,6 @@
+# 
+![Img final](./src/assets/final.png)
+#
 # Store
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
